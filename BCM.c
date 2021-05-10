@@ -203,7 +203,7 @@ int main(void)
 
 	  	  	   			 //HAL_Delay(500);
 
-	  	  	   			 HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_SET);
+	  	  	   			 HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
 	  	  	   			 //HAL_Delay(500);
 	  	  	   		 }
 	  	  	   		 else
@@ -211,7 +211,7 @@ int main(void)
 	  	  	   			// HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, GPIO_PIN_SET);
 	  	  	   			// HAL_Delay(500);
 
-	  	  	   			 HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, GPIO_PIN_RESET);
+	  	  	   			 HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);
 	  	  	   		//     HAL_Delay(500);
 	  	  	   		 }
 	  	  	   }
