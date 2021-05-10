@@ -199,7 +199,7 @@ int main(void)
 
 	  	  	   		 if(read_pin==1)
 	  	  	   		 {
-	  	  	   			 HAL_GPIO_WritePin(GPIOD, GPIO_PIN_10, GPIO_PIN_SET);
+	  	  	   			 //HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
 
 	  	  	   			 //HAL_Delay(500);
 
